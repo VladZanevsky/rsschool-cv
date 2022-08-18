@@ -3,7 +3,7 @@
 ## **Contacts**
 * phone number: +375(29)2831868
 * mail: zanevskij_va_21@mf.grsu.by
-* discord: 
+* discord: Vlad (@VladZanevsky)
 ## **About me**
 My goal now is to get to know the world of digital technologies, learn and immerse myself in the development of applications and websites. I like to constantly learn something new and "keep up with the times."
 ## **Skills**
@@ -24,7 +24,7 @@ My goal now is to get to know the world of digital technologies, learn and immer
     * Visual Studio Code
     * PyCharm
 * **Code Example:**
-'''python
+```python
 def digital_root(n):
     while(n > 9):
         answer = 0
@@ -33,10 +33,10 @@ def digital_root(n):
             answer = answer + int(number_str[i])
         n = answer
     return n
-'''
-* **Education:**
-* Grodno State Polytechnic College (computer systems and networks)![complete](./assets/images/icon_green.jpg)
+```
+## **Education:**
+* Grodno State Polytechnic College (computer systems and networks)
 * Grodno State University named after Yanka Kupala (information technology software)
 * HTML Academy
-* **English level:**
+## **English level:**
 * A2 (Pre-Intermediate)
