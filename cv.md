@@ -1,4 +1,4 @@
-![avatarka](./assets/images/avatarka.jpg)
+![avatarka](./assets/img/avatarka.jpg)
 # Vladislav Zanevsky
 ## **Contacts**
 * phone number: +375(29)2831868
