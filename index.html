@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <title>HTML&CSS CV</title>
+</head>
+<style>
+</style>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#aboutMe" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English level</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section-profile">
+                    <p class ="align-center"><img src="./assets/img/avatarka_medium.jpg" alt="ava"></p>
+                    <marquee scrolldelay="10" scrollamount="10" width="85%" behavior="scroll" direction="right"><h1>Vlad Zanevsky | Junior Front-End Developer</blink></h1></marquee>
+                    <hr>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title"><b>Contacts</b></h2>
+                    <ul>
+                        <li>Phone number: +375(29)283-18-68</li>
+                        <li>Mail: zanevskij_va_21@mf.grsu.by</li>
+                        <li>Discord: Vlad (@VladZanevsky)</li>
+                    </ul>
+            </section>
+            <section class="section" id="aboutMe">
+                <h2 class="section-title"><b>About me</b></h2>
+                    <p>My goal now is to get to know the world of digital technologies, learn and immerse myself in the 
+                        development of applications and websites. I like to constantly learn something new and 
+                        "keep up with the times."
+                    </p>
+            </section>
+            <section class="section" id="skills">
+                <hr>
+                <h2 class="section-title"><b>Skills</b></h2>
+                    <ul>
+                        <li><b>Programming languages:</b></li>
+                            <br>
+                            <ul>
+                                <li>PHP</li>
+                                <li>C++</li>
+                                <li>C#</li>
+                                <li>Python</li>
+                                <li>Delphi</li>
+                                <li>Assembler</li>
+                            </ul>
+                            <br>
+                        <li><b>Frameworks:</b></li>
+                            <br>
+                            <ul>
+                                <li>Laravel</li>
+                                <li>Boostrap</li>
+                            </ul>
+                            <br>
+                        <li><b>Version control systems:</b></li>
+                            <br>
+                            <ul>
+                                <li>Git</li>
+                            </ul>
+                            <br>
+                        <li><b>IDE:</b></li>
+                            <br>
+                            <ul>
+                                <li>Visual Studio Code</li>
+                                <li>Visual Studio</li>
+                                <li>PyCharm</li>
+                            </ul>
+                            <br>
+                        <li><b>Code Example:</b></li>
+                            <p><code>
+                                <span id="orange">def digital_root(<span id="green">n</span>)</span>:<br>
+                                &nbsp;&nbsp;<span id="red">while</span>(<span id="green">n</span> > <span id="blue">9</span>):<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span id="green">answer</span> = <span id="blue">0</span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span id="green">number_str</span> = <span id="orange">str(<span id="green">n</span>)</span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span id="red">for</span> <span id="green">i</span> <span id="red">in</span> <span id="orange">range(0, len(<span id="green">number_str</span>))</span>:<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="green">answer</span> = <span id="green">answer</span> + <span id="orange">int(<span id="green">number_str[i]</span>)</span><br>
+                                &nbsp;&nbsp;<span id="green">n</span> = <span id="green">answer</span><br>
+                                <span id="orange">return <span id="green">n</span></span>
+                            </code></p>
+                    </ul>
+            </section>
+            <section class="section" id="education">
+                <hr>
+                <h2 class="section-title"><b>Education</b></h2>
+                    <ul>
+                        <li>Grodno State Polytechnic College (computer systems and networks)</li>
+                        <li>Grodno State University named after Yanka Kupala (information technology software)</li>
+                        <li>HTML Academy</li>
+                    </ul>
+            </section>
+            <section class="section" id="english">
+                <hr>
+                <h2 class="section-title"><b>English level</b></h2>
+                    <ul>
+                        <li>A2 (Pre-Intermediate)</li>
+                    </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <p>@2022 VladZanevsky</p>
+            </div>
+            <div class="footer-right">
+                <p class="align-right"><img src="./assets/img/rs_school.svg" alt="rsschool"></p>
+            </div>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
